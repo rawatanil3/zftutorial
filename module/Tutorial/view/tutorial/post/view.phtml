@@ -1,0 +1,23 @@
+<?php $this->HeadLink()->appendStylesheet($this->baseUrl.'/css/post.css'); ?>
+
+<div class="content">
+    <div class="page-header">
+        <h1>Page name <small>Supporting text or tagline</small></h1>
+    </div>
+    <div class="row">
+        <div class="span8">
+            <h2><?php echo $this->title; ?></h2>
+            <?php echo $this->content; ?>
+        </div>
+        <?php echo $this->widget; ?>
+        <?php echo $this->widget; ?>
+    </div>
+</div>
+
+<hr>
+
+<footer>
+    <p>&copy; Company 2013</p>
+</footer>
+
+</div> <!-- /container -->
