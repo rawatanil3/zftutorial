@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="Bootstrap.php" colors="ture">
+    <php>
+        <env name="ZF2_PATH" value="/home/fai/webdev/lib/ZendFramework-2.1.3/library/" />
+    </php>
+    <testsuites>
+        <testsuite name="zftutorial">
+            <directory>./BlogTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

@@ -7,12 +7,12 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Tutorial\Controller;
+namespace Blog\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-use Tutorial\Models;
+use Blog\Models;
 
 class PostController extends AbstractActionController
 {

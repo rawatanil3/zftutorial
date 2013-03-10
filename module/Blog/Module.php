@@ -7,9 +7,9 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Tutorial;
+namespace Blog;
 
-use Tutorial\Models\PostIdentityMap;
+use Blog\Models\Post;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 
@@ -31,11 +31,11 @@ class Module
     public function getServiceConfig() {
         return array(
             'invokables' => array(
-                'PostDataMapper' => 'Tutorial\Models\PostDataMapper'
+                'PostDataMapper' => 'Blog\Models\Post\DataMapper'
             ),
             'factories' => array(
                 'PostIdentityMap' => function($sm) {
-                    $pim = new PostIdentityMap($sm->get('PostDataMapper'));
+                    $pim = new Post\IdentityMap($sm->get('PostDataMapper'));
                     return $pim;
                 }
             )
