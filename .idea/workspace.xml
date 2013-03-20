@@ -2,65 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/test/Bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/DataMapper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/DataMapperInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/DataMapperTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainModelAbstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/IdentityMap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/PostTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/test/ResultPrinterListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/test/phpunit.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Models/PostDataMapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Models/PostIdentityMap.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/Module.php" afterPath="$PROJECT_DIR$/module/Blog/Module.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/config/module.config.php" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/ar_SY.mo" afterPath="$PROJECT_DIR$/module/Blog/language/ar_SY.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/ar_SY.po" afterPath="$PROJECT_DIR$/module/Blog/language/ar_SY.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/cs_CZ.mo" afterPath="$PROJECT_DIR$/module/Blog/language/cs_CZ.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/cs_CZ.po" afterPath="$PROJECT_DIR$/module/Blog/language/cs_CZ.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/de_DE.mo" afterPath="$PROJECT_DIR$/module/Blog/language/de_DE.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/de_DE.po" afterPath="$PROJECT_DIR$/module/Blog/language/de_DE.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/en_US.mo" afterPath="$PROJECT_DIR$/module/Blog/language/en_US.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/en_US.po" afterPath="$PROJECT_DIR$/module/Blog/language/en_US.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/es_ES.mo" afterPath="$PROJECT_DIR$/module/Blog/language/es_ES.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/es_ES.po" afterPath="$PROJECT_DIR$/module/Blog/language/es_ES.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/fr_CA.mo" afterPath="$PROJECT_DIR$/module/Blog/language/fr_CA.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/fr_CA.po" afterPath="$PROJECT_DIR$/module/Blog/language/fr_CA.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/fr_FR.mo" afterPath="$PROJECT_DIR$/module/Blog/language/fr_FR.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/fr_FR.po" afterPath="$PROJECT_DIR$/module/Blog/language/fr_FR.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/it_IT.mo" afterPath="$PROJECT_DIR$/module/Blog/language/it_IT.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/it_IT.po" afterPath="$PROJECT_DIR$/module/Blog/language/it_IT.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/ja_JP.mo" afterPath="$PROJECT_DIR$/module/Blog/language/ja_JP.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/ja_JP.po" afterPath="$PROJECT_DIR$/module/Blog/language/ja_JP.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/nb_NO.mo" afterPath="$PROJECT_DIR$/module/Blog/language/nb_NO.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/nb_NO.po" afterPath="$PROJECT_DIR$/module/Blog/language/nb_NO.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/nl_NL.mo" afterPath="$PROJECT_DIR$/module/Blog/language/nl_NL.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/nl_NL.po" afterPath="$PROJECT_DIR$/module/Blog/language/nl_NL.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/pl_PL.mo" afterPath="$PROJECT_DIR$/module/Blog/language/pl_PL.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/pl_PL.po" afterPath="$PROJECT_DIR$/module/Blog/language/pl_PL.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/pt_BR.mo" afterPath="$PROJECT_DIR$/module/Blog/language/pt_BR.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/pt_BR.po" afterPath="$PROJECT_DIR$/module/Blog/language/pt_BR.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/ru_RU.mo" afterPath="$PROJECT_DIR$/module/Blog/language/ru_RU.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/ru_RU.po" afterPath="$PROJECT_DIR$/module/Blog/language/ru_RU.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/tr_TR.mo" afterPath="$PROJECT_DIR$/module/Blog/language/tr_TR.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/tr_TR.po" afterPath="$PROJECT_DIR$/module/Blog/language/tr_TR.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/zh_CN.mo" afterPath="$PROJECT_DIR$/module/Blog/language/zh_CN.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/zh_CN.po" afterPath="$PROJECT_DIR$/module/Blog/language/zh_CN.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/zh_TW.mo" afterPath="$PROJECT_DIR$/module/Blog/language/zh_TW.mo" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/language/zh_TW.po" afterPath="$PROJECT_DIR$/module/Blog/language/zh_TW.po" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Controller/IndexController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/IndexController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Controller/PostController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/PostController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/view/error/404.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/error/404.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/view/error/index.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/error/index.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/view/layout/layout.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/layout/layout.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/view/tutorial/index/index.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/index/index.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/view/tutorial/post/view.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/view.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/Tutorial/view/tutorial/post/widget.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/widget.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/DataMapperAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Category/DataMapperInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/DataMapperInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Category/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Category/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Category/IdentityMap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/IdentityMapAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Category/MySQLDataMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/MySQLDataMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Category/Post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md.orig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Models/DataMapperInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainModelAbstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/DataMapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/test/ResultPrinterListener.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/test/Bootstrap.php" afterPath="$PROJECT_DIR$/module/Blog/test/Bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/DataMapperTest.php" afterPath="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/DataMapperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Exception.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/IdentityMap.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/IdentityMap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/IndexController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/Module.php" afterPath="$PROJECT_DIR$/module/Blog/Module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Post.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/PostController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Blog/Controller/PostController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/PostTest.php" afterPath="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/PostTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/config/module.config.php" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/test/phpunit.xml" afterPath="$PROJECT_DIR$/module/Blog/test/phpunit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zftutorial.local.iml" afterPath="$PROJECT_DIR$/.idea/zftutorial.local.iml" />
     </list>
@@ -68,33 +42,31 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1361164063222" ignored="false" />
     <file path="/NewController.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1361331843210" ignored="false" />
-    <file path="/Module.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362890794933" ignored="false" />
-    <file path="/IndexController.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1361342076500" ignored="false" />
+    <file path="/Module.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362931457451" ignored="false" />
+    <file path="/IndexController.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362931164006" ignored="false" />
     <file path="/BlogController.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362116811544" ignored="false" />
     <file path="/post.phtml" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1361383103664" ignored="false" />
     <file path="/module.config.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362119934370" ignored="false" />
     <file path="/Model.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1361425203006" ignored="false" />
-    <file path="/Post.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362894998325" ignored="false" />
-    <file path="/PostDataMapper.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1361428078723" ignored="false" />
-    <file path="/PostIdentityMap.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1361428748006" ignored="false" />
+    <file path="/Post.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363503995568" ignored="false" />
+    <file path="/PostDataMapper.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362931195408" ignored="false" />
+    <file path="/PostIdentityMap.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362931358821" ignored="false" />
     <file path="/layout.phtml" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362118682285" ignored="false" />
     <file path="/index.phtml" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362118397100" ignored="false" />
-    <file path="/a.dummy" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362882262434" ignored="false" />
+    <file path="/a.dummy" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362116392151" ignored="false" />
     <file path="/view.phtml" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362120290586" ignored="false" />
-    <file path="/PostController.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362120259801" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362896448681" ignored="false" />
-    <file path="/README.md" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362881467079" ignored="false" />
-    <file path="/DataMapper.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362895435780" ignored="false" />
-    <file path="/Exception.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362891531609" ignored="false" />
-    <file path="/DomainModelAbstract.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362891545406" ignored="false" />
-    <file path="/DataMapperInterface.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362890678570" ignored="false" />
-    <file path="/a.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362889529859" ignored="false" />
-    <file path="/phpunit.xml" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362892772738" ignored="false" />
-    <file path="/Bootstrap.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362893631019" ignored="false" />
-    <file path="/DataMapperTest.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362895410365" ignored="false" />
-    <file path="/PostTest.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362895351393" ignored="false" />
-    <file path="/IdentityMap.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362890953129" ignored="false" />
-    <file path="/ResultPrinterListener.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362892940728" ignored="false" />
+    <file path="/PostController.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1362931167845" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363747643731" ignored="false" />
+    <file path="/DataMapperAbstract.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363494680364" ignored="false" />
+    <file path="/DomainEntityInterface.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363493276655" ignored="false" />
+    <file path="/DomainEntityAbstract.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363503711646" ignored="false" />
+    <file path="/DataMapperInterface.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363494783157" ignored="false" />
+    <file path="/MySQLDataMapper.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363504910940" ignored="false" />
+    <file path="/IdentityMap.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363496346965" ignored="false" />
+    <file path="/IdentityMapAbstract.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363496189923" ignored="false" />
+    <file path="/PostTest.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363504268467" ignored="false" />
+    <file path="/phpunit.xml" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363503539909" ignored="false" />
+    <file path="/DataMapperTest.php" changelist="7b4332d5-ff78-4590-91f2-4d21bbfba6c4" time="1363504824592" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,10 +86,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Blog/view/error/index.phtml">
+      <file leaf-file-name="PostTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/PostTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="71" selection-start="520" selection-end="520" vertical-scroll-proportion="0.31034482">
+            <state line="26" column="21" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DomainEntityAbstract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityAbstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="20" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DomainEntityInterface.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdentityMapAbstract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/IdentityMapAbstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataMapperAbstract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DataMapperAbstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataMapperTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/DataMapperTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="38" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySQLDataMapper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/MySQLDataMapper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="21" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdentityMap.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/IdentityMap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="5" selection-start="345" selection-end="345" vertical-scroll-proportion="0.5304519">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/test/Bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="3" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,22 +185,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/module/Tutorial/test/TutorialTest/Models/Post/DataMapperTest.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/test/TutorialTest/Models/Post/PostTest.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/test/ResultPrinterListener.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/test/phpunit.xml" />
-        <option value="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Models/DomainModelAbstract.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Models/Post/Post.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/test/BlogTest/Models/Post/PostTest.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Models/Post/DataMapper.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/test/BlogTest/Models/Post/DataMapperTest.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/src/Blog/Models/Post/DataMapper.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/PostDataMapper.php" />
         <option value="$PROJECT_DIR$/config/application.config.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/Tutorial/test/Bootstrap.php" />
-        <option value="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/DataMapperTest.php" />
-        <option value="$PROJECT_DIR$/module/Blog/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/PostIdentityMap.php" />
         <option value="$PROJECT_DIR$/module/Blog/Module.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityInterface.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/DataMapperInterface.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/IdentityMapAbstract.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/IdentityMap.php" />
+        <option value="$PROJECT_DIR$/module/Blog/test/Bootstrap.php" />
+        <option value="$PROJECT_DIR$/module/Blog/test/phpunit.xml" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityAbstract.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Post.php" />
+        <option value="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/PostTest.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/DataMapperAbstract.php" />
+        <option value="$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/DataMapperTest.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/MySQLDataMapper.php" />
       </list>
     </option>
   </component>
@@ -172,15 +216,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="host php binary">
     <include_path>
-      <path value="$PROJECT_DIR$/../../lib/ZendFramework-2.1.3/library" />
+      <path value="$PROJECT_DIR$/../../lib/ZendFramework-2.1.4/library" />
       <path value="/usr/share/pear/PHPUnit" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="-5" />
-    <option name="width" value="1922" />
-    <option name="height" value="1090" />
+    <option name="width" value="1368" />
+    <option name="height" value="751" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -190,12 +234,65 @@
             <id />
           </State>
           <State>
-            <id>XPath</id>
+            <id>Bitwise operation issuesJavaScript</id>
           </State>
           <State>
-            <id>XSLT</id>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -254,11 +351,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zftutorial.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zftutorial.local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,92 +388,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,32 +536,6 @@
               <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zftutorial.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -557,25 +556,49 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="71" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="82" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="73" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module/Tutorial/test/phpunit.xml" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="/usr/share/pear/PHPUnit" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="87" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="962" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="960" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="87" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="82" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="697a9905-216b-49ec-b4f8-d75444507e3f">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/Blog/src/Blog/Models/Category" />
       <recent name="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Models" />
-      <recent name="$PROJECT_DIR$/module/Tutorial/src/Tutorial/Models/Post" />
-    </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.UnitTest">
+  <component name="RunManager" selected="PHPUnit.Local UnitTest">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -586,18 +609,23 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="false" name="zftutorial" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="zftutorial.local" session_id="virtualdev">
       <method />
     </configuration>
-    <configuration default="false" name="UnitTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <configuration default="false" name="Local UnitTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner directory="$PROJECT_DIR$/module/Blog/test" />
       <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
       <method />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHP Remote Debug.zftutorial" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.UnitTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.Local UnitTest" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -625,32 +653,26 @@
       <created>1361153643160</created>
       <updated>1361153643160</updated>
     </task>
-    <task id="LOCAL-00001" summary="Trying to get repository to work">
-      <created>1362881562595</created>
-      <updated>1362881562595</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-5" width="1922" height="1090" extended-state="6" />
+    <frame x="-1" y="-5" width="1368" height="751" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19263607" sideWeight="0.18172157" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19263607" sideWeight="0.48034006" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38850173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40807652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30530304" sideWeight="0.5646853" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36363637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4353147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32752612" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -698,7 +720,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="For tutorial 8.&#10;DataMapper file layout and Unit Tests for basic domain object creation" />
+    <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -712,132 +734,112 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Trying to get repository to work" />
-    <MESSAGE value="For tutorial 8.&#10;DataMapper file layout and Unit Tests for basic domain object creation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="20" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/Blog/test/ResultPrinterListener.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Exception.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="45" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.4604743">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/test/phpunit.xml">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="351" selection-end="351" vertical-scroll-proportion="0.28301886">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DataMapperInterface.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Category/DataMapperInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="32" selection-end="32" vertical-scroll-proportion="0.05928854">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainModelAbstract.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/DataMapperInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="212" selection-end="212" vertical-scroll-proportion="0.3853755">
+        <state line="9" column="30" selection-start="153" selection-end="153" vertical-scroll-proportion="-5.625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="343" selection-end="343" vertical-scroll-proportion="1.2916666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/test/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="339" selection-end="339" vertical-scroll-proportion="0.37078652">
+        <state line="31" column="7" selection-start="478" selection-end="478" vertical-scroll-proportion="0.436" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/test/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.054744527">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/PostTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="44" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-28.75">
-          <folding>
-            <element signature="e#40#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/DataMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="19" selection-end="19" vertical-scroll-proportion="0.033707865">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Controller/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="866" selection-end="866" vertical-scroll-proportion="0.28651685">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/test/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="968" selection-end="968" vertical-scroll-proportion="0.26516855">
+        <state line="26" column="21" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/test/BlogTest/Models/Post/DataMapperTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="451" selection-end="451" vertical-scroll-proportion="-11.25">
-          <folding>
-            <element signature="e#40#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.06741573">
+        <state line="18" column="38" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/IdentityMapAbstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="44" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.5317919">
+        <state line="5" column="27" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/index/index.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityAbstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="20" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/layout/layout.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DomainEntityInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="781" selection-end="781" vertical-scroll-proportion="0.3539326">
+        <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/Module.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/DataMapperAbstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="41" selection-start="999" selection-end="999" vertical-scroll-proportion="0.4550562">
-          <folding>
-            <element signature="e#347#368#0" expanded="true" />
-          </folding>
+        <state line="11" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/error/index.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/MySQLDataMapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="71" selection-start="520" selection-end="520" vertical-scroll-proportion="0.31034482">
+        <state line="17" column="21" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Blog/Models/Post/IdentityMap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="345" selection-end="345" vertical-scroll-proportion="0.5304519">
           <folding />
         </state>
       </provider>

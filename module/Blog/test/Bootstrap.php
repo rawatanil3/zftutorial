@@ -54,7 +54,7 @@ class Bootstrap
     {
         $vendorPath = static::findParentPath('vendor');
 
-        $zf2Path = "/home/fai/webdev/lib/ZendFramework-2.1.3/library/";
+        $zf2Path = "/home/fai/webdev/lib/ZendFramework-2.1.4/library/";
 
 //        $zf2Path = getenv('ZF2_PATH');
 //        if (!$zf2Path) {

@@ -12,7 +12,7 @@ namespace Blog\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-use Blog\Models;
+use Tutorial\Models;
 
 class PostController extends AbstractActionController
 {

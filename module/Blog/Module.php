@@ -9,7 +9,7 @@
 
 namespace Blog;
 
-use Blog\Models\Post;
+use Blog\Models\PostIdentityMap;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 
@@ -31,11 +31,11 @@ class Module
     public function getServiceConfig() {
         return array(
             'invokables' => array(
-                'PostDataMapper' => 'Blog\Models\Post\DataMapper'
+                'PostDataMapper' => 'Blog\Models\PostDataMapper'
             ),
             'factories' => array(
                 'PostIdentityMap' => function($sm) {
-                    $pim = new Post\IdentityMap($sm->get('PostDataMapper'));
+                    $pim = new PostIdentityMap($sm->get('PostDataMapper'));
                     return $pim;
                 }
             )

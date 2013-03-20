@@ -2,16 +2,10 @@
 
 namespace Blog\Models;
 
-class DomainModelAbstract {
+abstract class DomainEntityAbstract {
     protected $_id;
-
-    public function setId($id) {
-        $this->_id = $id;
-    }
 
     public function getId() {
         return $this->_id;
     }
-
-
 }

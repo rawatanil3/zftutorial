@@ -2,10 +2,27 @@
 
 namespace Blog\Models\Post;
 
-class IdentityMap {
-    private $_dataMapper;
+use Blog\Models\IdentityMapAbstract;
 
-    public function __construct(DataMapper $pdm) {
-        $this->_dataMapper = $pdm;
+class IdentityMap extends IdentityMapAbstract {
+    public function __construct(DataMapperInterface $dm) {
+        $this->_dataMapper = $dm;
+        return $this;
+    }
+
+    /**
+     * @param $id
+     * @return bool
+     */
+    private function isPostCached($id) {
+
+    }
+
+    /**
+     * @param $id
+     * @return Post
+     */
+    private function fetchPostById($id) {
+
     }
 }

@@ -5,10 +5,7 @@ namespace BlogTest\Models\Post;
 use PHPUnit_Framework_TestCase;
 use Blog\Models\Post\Post;
 
-class PostTest extends  PHPUnit_Framework_TestCase {
-    /**
-     * @covers a
-     */
+class PostTest extends PHPUnit_Framework_TestCase {
     public function testObjectPropertiesSet() {
         // setting up testing values
         $id = 1;
@@ -21,14 +18,13 @@ class PostTest extends  PHPUnit_Framework_TestCase {
 
         // getting actual values
         $refPost = new \ReflectionObject($post);
-        $idProp= $refPost->getProperty('_id');
+        $idProp = $refPost->getProperty('_id');
         $idProp->setAccessible(true);
-        $titleProp= $refPost->getProperty('_title');
+        $titleProp = $refPost->getProperty('_title');
         $titleProp->setAccessible(true);
 
         $this->assertEquals($id, $idProp->getValue($post), "ID not properly set by Post setter method");
         $this->assertEquals($title, $titleProp->getValue($post), "title not properly set by Post setter method");
-
     }
 
     public function testObjectPropertiesGet() {
@@ -42,12 +38,13 @@ class PostTest extends  PHPUnit_Framework_TestCase {
         $idProp = $refPost->getProperty('_id');
         $idProp->setAccessible(true);
         $idProp->setValue($post, $id);
-        $titleProp= $refPost->getProperty('_title');
+
+        $titleProp = $refPost->getProperty('_title');
         $titleProp->setAccessible(true);
         $titleProp->setValue($post, $title);
 
         $this->assertEquals($id, $post->getId(), "ID not properly returned by Post getter method");
         $this->assertEquals($title, $post->getTitle(), "title not properly returned by Post getter method");
     }
-
 }
+

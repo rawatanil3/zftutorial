@@ -4,17 +4,19 @@ namespace Blog\Models\Post;
 
 use Blog\Models;
 
-class Post extends Models\DomainModelAbstract {
+class Post extends Models\DomainEntityAbstract {
     /**
      * @var string
      */
     private $_title;
 
     /**
-     * @param string $title
+     * @param $title
+     * @return Post
      */
     public function setTitle($title) {
         $this->_title = $title;
+        return $this;
     }
 
     /**
@@ -24,5 +26,12 @@ class Post extends Models\DomainModelAbstract {
         return $this->_title;
     }
 
-
+    /**
+     * @param $id
+     * @return Post
+     */
+    public function setId($id) {
+        $this->_id = $id;
+        return $this;
+    }
 }
